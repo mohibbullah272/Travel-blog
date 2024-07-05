@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>practice</title>
+
+  <style>
+
+        .search-container {
+  position: relative;
+  display: inline-block;
+
+}
+
+#search-input {
+  padding-right: 30px; /* Space for the clear button */
+  width: 200px; /* Adjust width as needed */
+}
+
+#clear-button {
+  position: absolute;
+  right: 5px; /* Adjust position as needed */
+  top: 50%;
+  transform: translateY(-50%);
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+img{
+    margin-top: 20px;
+}
+a{
+    text-decoration: none;
+    display:block;
+    margin-top: 10px;
+}
+label{
+    display: block;
+    margin-top: 10px;
+}
+    </style>
+</head>
+<body>
+<nav>    
+        <div class="navbar">
+    <ul>
+<li><a href="sign.html">sign in</a></li>
+<li><a href="table.html">employ</a></li>
+<li><a href="practice.html">services</a></li>
+<li><a href="index.html">Home</a></li>
+    </ul>
+</div>
+</nav>
+    <header>
+    
+        <div class="search-container">
+            <input type="text" id="search-input" placeholder="Search...">
+            <button id="clear-button" onclick="clearSearch()">X</button>
+          </div>
+    
+    </header>
+<main>
+    <img width="300px" height="200px" src="wallpaperflare.com_wallpaper.jpg" alt="loading">
+<br>
+    <a href="#">more about</a>
+    <hr>
+    <h4>feedback form:</h4>
+    <label for="name">Name:<input type="text" name="name" id="name"></label>
+    <label for="date">Date:<input type="date" id="date"></label>
+
+    <div class="comment">
+        <h2>leave a comment</h2>
+        <form >
+            <textarea name="comment" id="text area" placeholder="write hare your feedback about us " rows="5" cols="50"></textarea><br>
+            <input type="submit" >
+        </form>
+    </div>
+</main>
+      
+</body>
+</html>

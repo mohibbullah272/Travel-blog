@@ -6,9 +6,6 @@ text-decoration: none;
 width: 50px;
 height: 30px;
 }
-body{
-background-image: url(priroda-voda-reka-more-most.jpg); background-repeat: no-repeat; 
-}
 .navbar ul li a{
     text-decoration: none;
     color:darkblue;
@@ -26,6 +23,10 @@ background-image: url(priroda-voda-reka-more-most.jpg); background-repeat: no-re
     background-color: white;
     filter: blur(2px);
 }
+body{
+    background-color: rgb(54, 54, 117);
+}
+
 .head{
     margin-top: 10%;
     text-align: center;
